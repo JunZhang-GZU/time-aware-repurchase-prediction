@@ -1,0 +1,2 @@
+reference,comparator,metric,mean_difference,ci_lower,ci_upper,probability_difference_lt_0,bootstrap_replicates
+Logistic_All,Logistic_RFM,brier,-0.0027546006616521244,-0.004296802223078199,-0.001223890647269921,1.0,2000

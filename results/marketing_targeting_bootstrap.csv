@@ -1,0 +1,4 @@
+reference,comparator,contact_fraction,metric,mean_difference,ci_lower,ci_upper,probability_difference_gt_0,bootstrap_replicates
+Logistic_All,Logistic_RFM,0.2,precision_difference,0.015612536142954344,-0.003296930318235704,0.03587151889741399,0.937,2000
+Logistic_All,Logistic_RFM,0.2,capture_rate_difference,0.007973845781084461,-0.0017123227772161376,0.018510479784966456,0.937,2000
+Logistic_All,Logistic_RFM,0.2,lift_difference,0.03983521300908044,-0.008554037024645942,0.09250909040031104,0.937,2000
