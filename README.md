@@ -66,8 +66,12 @@ Training cutoffs: April–August 2011 (9,620 samples); validation: September (1,
 
 These are archived experiment results, not newly generated training results from the repository preparation step. All five existing tests passed in the source environment on 2026-09-12. A complete fresh training run was not performed during upload preparation; library versions and hardware may affect numerical reproducibility.
 
-Conclusions are limited to the current dataset, features and time windows. Survival-analysis / BG-NBD baselines and window-sensitivity experiments are not implemented in these archived scripts. The code preserves the supplied experiment implementation, including its feature construction and missing-value handling.
+Conclusions are limited to the current dataset, features and time windows. The supplementary Cox, BG/NBD and window-sensitivity experiments are implemented and archived separately in [revision_20260913](revision_20260913/README.md). The code preserves the supplied experiment implementation, including its feature construction and missing-value handling.
 
 ## Publication scope
 
 This repository contains experiment materials only. Submission documents, author contact details, server connection settings, raw data archives and temporary files are excluded. No software license is added by this upload; dataset terms are available from UCI.
+
+## Supplementary experiments / 新增实验
+
+See [reproduction instructions](revision_20260913/README.md), [experiment code](revision_20260913/run_revision_experiments.py), [baseline metrics](revision_20260913/results/additional_baselines.csv) and [window sensitivity](revision_20260913/results/window_sensitivity.csv). These experiments were run on 2026-09-13; this upload publishes the archived outputs without rerunning or changing the original experiments.
