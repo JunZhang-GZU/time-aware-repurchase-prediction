@@ -1,0 +1,30 @@
+{
+  "cox_penalizer": 0.1,
+  "bg_penalizer": 0.01,
+  "bg_training_cutoff": "2011-08-01",
+  "bg_params": {
+    "r": 0.5613894064178097,
+    "alpha": 28.51780464769735,
+    "a": 0.02472294818022592,
+    "b": 0.18624180815221275
+  },
+  "features": [
+    "recency",
+    "frequency",
+    "monetary",
+    "quantity",
+    "unique_products",
+    "active_days",
+    "avg_unit_price",
+    "amount_std",
+    "tenure_days",
+    "avg_basket",
+    "recent30_orders",
+    "recent30_amount",
+    "prior30_orders",
+    "prior30_amount",
+    "order_trend",
+    "amount_trend",
+    "mean_purchase_interval"
+  ]
+}

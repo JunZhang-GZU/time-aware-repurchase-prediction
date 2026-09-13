@@ -1,0 +1,8 @@
+{
+  "complete_history_and_followup": true,
+  "no_cross_split_label_overlap": true,
+  "cox_event_matches_binary_label": true,
+  "bg_probability_bounds_and_horizon_monotonicity": true,
+  "sensitivity_same_customer_cutoff_cohort": true,
+  "seed": 20260827
+}
